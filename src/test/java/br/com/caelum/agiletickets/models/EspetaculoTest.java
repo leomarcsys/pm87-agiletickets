@@ -119,7 +119,7 @@ public class EspetaculoTest {
 		
 		List<Sessao> lista = espetaculo.criaSessoes(dataInicio, dataFim, horario, Periodicidade.SEMANAL);
 		
-		assertEquals(5,lista.size());
+		assertEquals(2,lista.size());
 		
 		assertEquals(lista.get(0).getInicio(),dataHoraIn);
 		assertEquals(lista.get(lista.size()-1).getInicio(),dataHoraSegundaSessao);
